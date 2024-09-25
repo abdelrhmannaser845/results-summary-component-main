@@ -25,6 +25,7 @@
     background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius:0 0 20px 20px;
     display: grid;
+    grid-template-rows: auto auto 40px auto;
     justify-items: center;
     color: hsl(241, 100%, 89%);
 
