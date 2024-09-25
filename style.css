@@ -6,7 +6,7 @@
 }
 .body
 {
-    height: calc(100vh - 12.8px);
+    height: calc(100vh - 14px - 20px);
     display: grid;
     align-content: center;
     justify-content: center;
@@ -118,4 +118,8 @@ button
 h2
 {
 color: white;
+}
+.attribution
+{
+    margin-top: 20px;
 }
