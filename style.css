@@ -1,0 +1,121 @@
+*
+{
+    font-size: 18 px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+}
+.body
+{
+    height: calc(100vh - 12.8px);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.main
+{
+    border-radius: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 720px;
+    box-shadow: 0 4px 8px 9px rgba(0, 0, 0, 0.1);
+}
+.result
+{
+    padding: 30px;
+    background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    color: hsl(241, 100%, 89%);
+
+}
+.record
+{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    width: 50%;
+    display: grid;
+}
+.record p
+{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+.record p span
+{
+    color: hsl(0, 0%, 100%);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+.summary
+{
+    padding: 30px;
+}
+button 
+{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 100%;
+    margin: 50px 0 0 0;
+    outline: none;
+   
+}
+.summary >*:not(button)
+{
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+}
+.re
+{
+    display: inline;
+    margin-left: 100px;
+    color: black;
+    font-weight: 800;
+}
+.summary div p 
+{
+    display: inline-block;
+}
+  .reaction 
+{ 
+    color: hsl(0, 100%, 67%); 
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.memory 
+{
+    color: hsl(39, 100%, 56%);
+     background-color: hsla(39, 100%, 56% ,0.1);
+}
+.verbal
+{ 
+    color: hsl(166, 100%, 37%); 
+    background-color: hsla(166, 100%, 37%, .1);
+}
+.visual 
+{
+     color: hsl(234, 85%, 45%); 
+     background-color: hsla(234, 85%, 45%, .1);
+}
+.summary h1
+{
+    text-align: left;
+}
+.pre
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+h2
+{
+color: white;
+}
